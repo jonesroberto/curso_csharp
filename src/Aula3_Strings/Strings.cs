@@ -17,16 +17,18 @@ namespace Aula3_Strings
         private static void ExecuteString()
         {
             string myString1 = "Eu sou um string";
-            Console.WriteLine($"{myString1}");
+            Console.WriteLine($"string myString1 = {myString1};");
 
             string myString2 = "Caixa d\' água";
-            Console.WriteLine($"{myString2}");
+            Console.WriteLine($"string myString2 = {myString2};");
 
             string myString3 = @"Sant""Ana";
-            Console.WriteLine($"{myString3}");
+            Console.WriteLine($"string myString3 = {myString3};");
 
             string myString4 = @"Constante string verbatim";
-            Console.WriteLine($"{myString4}");
+            Console.WriteLine($"string myString4 = {myString4};");
+
+            Console.WriteLine("====================================");
         }
 
         private static void ExecuteStringCompare()
@@ -35,6 +37,8 @@ namespace Aula3_Strings
 
             if (myString == myString2)
                 Console.WriteLine("Strings iguais");
+
+            Console.WriteLine("====================================");
         }
 
         private static void ExecuteConcat()
@@ -48,6 +52,8 @@ namespace Aula3_Strings
         {
             string myString = "Microsoft ", myString2 = "C#";
             Console.WriteLine($"{myString}{myString2}");
+
+            Console.WriteLine("====================================");
         }
     }
 }
