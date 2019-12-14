@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Aula2
+namespace Aula2_TipoValorPredefinidos
 {
     public static class TipoValorPredefinidos
     {
@@ -61,13 +61,15 @@ namespace Aula2
         }
 
         private static void ExecuteFloat()
-        { 
-        
+        {
+            float myFloat = 1000F; // notação comum (decimal)
+            Console.WriteLine($"My myFloat float :{myFloat}");
         }
 
         private static void ExecuteDouble()
-        { 
-        
+        {
+            double myDouble = 6.5E3; // notação exponencial. 6.5 x 10³
+            Console.WriteLine($"My myDouble double :{myDouble}");
         }
     }
 }

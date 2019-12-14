@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Aula2
+namespace Aula2_Enumeradores
 {
-    public static class TipoValorDefinidosUsuarios
+    public static class Enums
     {
         public static void Execute()
         {
