@@ -7,6 +7,9 @@ namespace Aula3_Constantes
         static void Main(string[] args)
         {
             Constantes.Execute();
+
+            Console.WriteLine("Please any key to close application!");
+            Console.ReadKey();
         }
     }
 }
