@@ -6,15 +6,13 @@ namespace Aula4_Bitwise
     {
         static void Main(string[] args)
         {
-            uint valorDireita = 12;
-            valorDireita = valorDireita << 1;
-            Console.WriteLine($"valorDireita: {valorDireita}"); // 24
-            Console.WriteLine("================================");
+            uint valor = 12;
+            valor = valor << 1;
+            Console.WriteLine($"valor: {valor}"); // 24
 
             uint valorEsquerda = 12;
             valorEsquerda = valorEsquerda >> 1;
             Console.WriteLine($"valor: {valorEsquerda}"); // 6
-            Console.WriteLine("================================");
         }
     }
 }

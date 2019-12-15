@@ -10,7 +10,6 @@ namespace Aula4_Ternarios
             y = x < 0 ? -x : x;
 
             Console.WriteLine($"y = {y}");
-            Console.WriteLine("================================");
         }
     }
 }
